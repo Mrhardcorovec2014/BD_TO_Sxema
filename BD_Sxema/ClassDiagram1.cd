@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BD_Sxema.Клиент">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Машина1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BD_Sxema.Вид_Работы">
+    <Position X="0.5" Y="5.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABCAAAAAAAAAUAAAAAAAEAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Цена_За_Работу" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BD_Sxema.Вид_ТО">
+    <Position X="4" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAgAAAIAAAAAI=</HashCode>
+      <FileName>Вид_ТО.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Вид_Работы" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BD_Sxema.Машина">
+    <Position X="3.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAADAAAAAAAAAAAIEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Вид_ТО" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BD_Sxema.Мастерская">
+    <Position X="9" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABgAA=</HashCode>
+      <FileName>Мастерская.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Список_Работников" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BD_Sxema.Список_Работников">
+    <Position X="12.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAQAAAAAAAQAAAAAAAAAAAAAgAAAAAAAAQAAACAAA=</HashCode>
+      <FileName>Список_Работников.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Свободные_Работники" />
+      <Property Name="Занятые_Работники" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BD_Sxema.Цена_За_Работу">
+    <Position X="7.25" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Цена_За_Работу.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BD_Sxema.Свободные_Работники">
+    <Position X="10" Y="3.25" Width="2.25" />
+    <AssociationLine Name="Цена_За_Работу" Type="BD_Sxema.Цена_За_Работу" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.125" Y="4.353" />
+        <Point X="11.125" Y="6.766" />
+        <Point X="8.5" Y="6.766" />
+        <Point X="8.5" Y="7.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>gAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Свободные_Работники.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Цена_За_Работу" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BD_Sxema.Занятые_Работники">
+    <Position X="14" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAQAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Занятые_Работники.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
