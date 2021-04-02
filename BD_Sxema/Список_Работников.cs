@@ -6,10 +6,10 @@ namespace BD_Sxema
 {
     public class List_of_Workers
     {
-        private int Дмитрий;
-        private int Константин;
-        private int Евгений;
-        private int Михаил;
+        private int Dmitriy;
+        private int Konstantin;
+        private int Evgeniy;
+        private int Mihail;
 
         public Free_Workers Free_Works
         {

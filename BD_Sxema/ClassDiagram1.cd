@@ -22,13 +22,6 @@
   </Class>
   <Class Name="BD_Sxema.Type_TO_">
     <Position X="4" Y="2.75" Width="2.75" />
-    <AssociationLine Name="Type_Of_Job" Type="BD_Sxema.Type_Of_Job" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="5.406" Y="4.44" />
-        <Point X="5.406" Y="5.627" />
-        <Point X="4" Y="5.627" />
-      </Path>
-    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAIEAAAAEAAAAAAAA=</HashCode>
       <FileName>Вид_ТО.cs</FileName>
@@ -60,7 +53,7 @@
   <Class Name="BD_Sxema.List_of_Workers">
     <Position X="12.25" Y="0.5" Width="3.25" />
     <TypeIdentifier>
-      <HashCode>gAAAQAAAAAAAQAAAAAAAAAAAABgAAAAAAAAAAAAAAIA=</HashCode>
+      <HashCode>ACAAAAQAAAAAgAAAAAAAAAAAABAAAAAAAEAAAAAAAIA=</HashCode>
       <FileName>Список_Работников.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -77,16 +70,8 @@
   </Class>
   <Class Name="BD_Sxema.Free_Workers">
     <Position X="10" Y="3.25" Width="2.25" />
-    <AssociationLine Name="Price_For_Job" Type="BD_Sxema.Payment_For_Job" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="11.125" Y="4.363" />
-        <Point X="11.125" Y="6.766" />
-        <Point X="11.219" Y="6.766" />
-        <Point X="11.219" Y="7.25" />
-      </Path>
-    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAA=</HashCode>
       <FileName>Свободные_Работники.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -96,7 +81,7 @@
   <Class Name="BD_Sxema.Busy_Workers">
     <Position X="14" Y="3.25" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAQAAAAAAAQAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>ACAAAAQAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Занятые_Работники.cs</FileName>
     </TypeIdentifier>
   </Class>
