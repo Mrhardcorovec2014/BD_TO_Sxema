@@ -4,14 +4,14 @@ using System.Text;
 
 namespace BD_Sxema
 {
-    public class Вид_ТО
+    public class Type_TO_
     {
-        private int Ежедневное_ТО;
-        private int Первое_ТО_1;
-        private int Второе_ТО_2;
-        private int Сезонное_СО;
+        private int Everyday_TO;
+        private int First_TO_1;
+        private int Second_TO_2;
+        private int Season_CO;
 
-        public Вид_Работы Вид_Работы
+        public Type_Of_Job Type_Of_Job
         {
             get => default;
             set

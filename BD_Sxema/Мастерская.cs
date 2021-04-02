@@ -4,13 +4,13 @@ using System.Text;
 
 namespace BD_Sxema
 {
-    public class Мастерская
+    public class Workshop
     {
-        private int Работники;
-        private int Оборудование;
-        private int Рейтинг;
+        private int Workers;
+        private int Equipment;
+        private int Rating;
 
-        public Список_Работников Список_Работников
+        public List_of_Workers List_of_workers
         {
             get => default;
             set

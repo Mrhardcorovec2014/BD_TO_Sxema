@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BD_Sxema
 {
-    public class Занятые_Работники
+    public class Busy_Workers
     {
         private int Михаил;
         private int Евгений;

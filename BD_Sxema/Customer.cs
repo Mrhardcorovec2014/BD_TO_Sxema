@@ -4,12 +4,12 @@ using System.Text;
 
 namespace BD_Sxema
 {
-    public class Клиент
+    public class Client
     {
-        private int Машина;
-        private int Документы;
+        private int Car;
+        private int Documents;
 
-        public Машина Машина1
+        public Car_ Car1
         {
             get => default;
             set

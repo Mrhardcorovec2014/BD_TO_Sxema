@@ -4,14 +4,14 @@ using System.Text;
 
 namespace BD_Sxema
 {
-    public class Список_Работников
+    public class List_of_Workers
     {
         private int Дмитрий;
         private int Константин;
         private int Евгений;
         private int Михаил;
 
-        public Свободные_Работники Свободные_Работники
+        public Free_Workers Free_Works
         {
             get => default;
             set
@@ -19,7 +19,7 @@ namespace BD_Sxema
             }
         }
 
-        public Занятые_Работники Занятые_Работники
+        public Busy_Workers Busy_Workers
         {
             get => default;
             set

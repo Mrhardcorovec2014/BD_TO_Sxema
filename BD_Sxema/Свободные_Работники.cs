@@ -4,11 +4,11 @@ using System.Text;
 
 namespace BD_Sxema
 {
-    public class Свободные_Работники
+    public class Free_Workers
     {
         private int Дмитрий;
 
-        public Цена_За_Работу Цена_За_Работу
+        public Payment_For_Job Price_For_Job
         {
             get => default;
             set
